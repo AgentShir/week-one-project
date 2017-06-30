@@ -3,3 +3,25 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: black;
 }
+
+header{
+  padding: 2px;
+  font-size: 3em;
+  position: fixed;
+}
+
+header a{
+  font-family: 'Roboto', sans-serif;;
+  text-transform: uppercase;
+}
+
+header logo{
+  display: flex;
+  float: left;
+}
+
+footer{
+  display: flex;
+  
+
+}
