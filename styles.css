@@ -1,27 +1,44 @@
 body{
-  font-family: 'Merriweather', serif;
-  font-family: 'Roboto', sans-serif;
-  background-color: black;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F1E8;
 }
 
 header{
-  padding: 2px;
-  font-size: 3em;
-  position: fixed;
+    padding: 2px;
+    font-size: 3em;
+    position: fixed;
 }
 
 header a{
-  font-family: 'Roboto', sans-serif;;
-  text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;;
+    text-transform: uppercase;
 }
 
 header logo{
-  display: flex;
-  float: left;
+    display: flex;
+    float: left;
+}
+
+nav{
+    color: #2B2F26;
+    background-color: #FFFFFF;
+}
+
+main{
+    display: flex;
+    
+}
+
+labels{
+    background-color: #F2F1E8;
+    color: #131511;
+    font-family: 'Merriweather', serif;
 }
 
 footer{
-  display: flex;
-  
+    display: flex;
+
+
 
 }
