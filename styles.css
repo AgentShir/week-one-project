@@ -20,14 +20,19 @@ header logo{
     float: left;
 }
 
+h1, h2, h3{
+    font-family: 'Merriweather', serif;
+}
+
 nav{
     color: #2B2F26;
     background-color: #FFFFFF;
+
 }
 
 main{
     display: flex;
-    
+
 }
 
 labels{
