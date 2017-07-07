@@ -7,15 +7,13 @@
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #F2F1E8;
+    background-color: black;
 }
 
 .wrapper{
     background-color: #F5FFEB;
     width: 1000px;
     margin: 0 auto;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 h1, h2, h3{
@@ -32,6 +30,11 @@ nav{
 #nav main-navigation{
   align-content: center;
   }
+
+a {
+    color: #968772;
+    text-transform: uppercase;
+}
 
 site_header{
     padding: 2px;
