@@ -46,7 +46,16 @@ table{
 }
 
 button{
-    
+    font-family: 'Roboto', sans-serif;
+    background-color: #968772;
+    color: #F2F1E8;
+    width: 60px;
+    height: 30px;
+}
+
+button h3:hover{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
 }
 
 footer{
