@@ -1,7 +1,21 @@
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
     background-color: #F2F1E8;
+}
+
+.wrapper{
+    background-color: #F5FFEB;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 h1, h2, h3{
@@ -19,7 +33,7 @@ nav{
   align-content: center;
   }
 
-header{
+site_header{
     padding: 2px;
     font-size: 3em;
     position: fixed;
@@ -58,7 +72,7 @@ button h3:hover{
     color: #FFFFFF;
 }
 
-footer{
+#site_footer{
     display: flex;
     align-content: flex-end;
     background-color: #F2F1E8;
