@@ -9,10 +9,15 @@ h1, h2, h3{
 }
 
 nav{
+    display: flex;
     color: #2B2F26;
     background-color: #FFFFFF;
     align-content: space-between;
 }
+
+#nav main-navigation{
+  align-content: center;
+  }
 
 header{
     padding: 2px;
@@ -34,6 +39,10 @@ li{
 
 main{
     display: flex;
+}
+
+table{
+
 }
 
 footer{
