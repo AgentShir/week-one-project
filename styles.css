@@ -75,8 +75,16 @@ button h3:hover{
     color: #FFFFFF;
 }
 
+form{
+    background-image: image(../week-one-project/images/optimized/background-2.jpg);
+}
+
 #site_footer{
     display: flex;
     align-content: flex-end;
     background-color: #F2F1E8;
+}
+
+#site_footer a{
+    justify-content: space-around;
 }
