@@ -18,49 +18,114 @@ body{
 
 h1, h2, h3{
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 
 nav{
-    display: flex;
-    color: #2B2F26;
-    background-color: #FFFFFF;
-    align-content: space-between;
+  color: #2B2F26;
+  background-color: #FFFFFF;
 }
 
-#nav main-navigation{
-  align-content: center;
-  }
+nav img{
+    width: 45px;
+    margin: 10px;
+    float: left;
+}
 
-a {
+.navlinks{
+    float: left;
+    width: 87%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.navlinks a {
     color: #968772;
     text-transform: uppercase;
+    margin: 10px;
 }
 
-site_header{
-    padding: 2px;
-    font-size: 3em;
-    position: fixed;
+main {
+    padding: 20px;
 }
 
-article{
-    font-family: 'Merriweather', serif;
-}
-
-ol{
-
-}
-
-li{
-
-}
-
-main{
+ul{
     display: flex;
+    align-items: stretch;
+    list-style: none;
+    padding-left: 0;
+    flex-wrap: wrap;
 }
 
-table{
-
+ul li {
+  flex-grow: 1;
+  margin: 10px;
+  height: 226px;
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
 }
+
+ul li span {
+  position: absolute;
+  bottom: 10px;
+  color: rgb(245, 240, 215);
+  background-color: rgb(43, 47, 38);
+  padding: 5px;
+}
+
+.img-1 {
+  flex-basis: 56%;
+  background-image: url("../week-one-project/images/optimized/product-1.jpg");
+}
+
+.img-2, .img-3 {
+  flex-basis: 15%;
+}
+
+.img-2 {
+  background-image: url("../week-one-project/images/optimized/product-2.jpg");
+}
+
+.img-3 {
+  background-image: url("../week-one-project/images/optimized/product-3.jpg");
+}
+
+.img-4 {
+  background-image: url("../week-one-project/images/optimized/product-4.jpg");
+}
+
+.img-5 {
+  background-image: url("../week-one-project/images/optimized/product-5.jpg");
+}
+
+.img-6 {
+  background-image: url("../week-one-project/images/optimized/product-6.jpg");
+}
+
+.img-7 {
+  background-image: url("../week-one-project/images/optimized/product-7.jpg");
+}
+
+.img-4, .img-5, .img-6, .img-7 {
+  max-height: 139px;
+}
+
+.img-4, .img-5, .img-7 {
+  flex-basis: 10%;
+}
+
+.img-6 {
+  flex-basis: 25%;
+}
+
+footer{
+    color: rgb(245, 240, 215);
+    background-color: rgb(43, 47, 38);
+    padding: 25px;
+}
+
 
 button{
     font-family: 'Roboto', sans-serif;
@@ -77,14 +142,4 @@ button h3:hover{
 
 form{
     background-image: image(../week-one-project/images/optimized/background-2.jpg);
-}
-
-#site_footer{
-    display: flex;
-    align-content: flex-end;
-    background-color: #F2F1E8;
-}
-
-#site_footer a{
-    justify-content: space-around;
 }
